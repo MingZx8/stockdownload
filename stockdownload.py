@@ -58,7 +58,7 @@ class stockdownload:
 			parent_path = os.path.dirname(os.getcwd())
 			return os.path.join(parent_path,relative_path)
 
-		file_path =__src_path("src/Symbol.csv")
+		file_path =__src_path("Symbol.csv")
 		file = pd.read_csv(file_path,index_col='Symbol')
 		for index in file.index:
 			lb_symbol.insert(END, index)
