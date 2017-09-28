@@ -112,8 +112,11 @@ class stockdownload:
 
 		def __delSelect(Event):
 			w = Event.widget
-			index = int(w.curselection()[0])
-			lb_select.delete(index)
+			try:
+				index = int(w.curselection()[0])
+				lb_select.delete(index)
+			except:
+				pass
 		def __addSelect(Event):
 			w = Event.widget
 			lb_order = list(lb_select.get(0,END))
