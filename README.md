@@ -14,10 +14,10 @@ python setup.py install
 
 pandas_datareader:  
 
-    use pip to download (pip pandas_datareader)
+use pip to download (pip pandas_datareader)
 
 # Import & use
 
-from stockdownload import *  
+  from stockdownload import *  
 
-stockdownload()
+  stockdownload()
