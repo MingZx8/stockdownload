@@ -12,7 +12,7 @@ import pandas
 import sys
 from StockDownload import *
 
-class MainFrame2:
+class MainFrame:
 	def __init__(self):
 		today = datetime.date.today()
 		preday = today-datetime.timedelta(days=2)
