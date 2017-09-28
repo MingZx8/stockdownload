@@ -5,7 +5,7 @@
 # @Date last modified: 19 Sep 2017
 # Python Version: 2.7
 
-# historical data from Google/yahoo finace
+# historical data from Google/yahoo finance
 # http://www.google.com/finance/historical?q=JNUG&startdate=20170101&enddate=20170707&output=csv
 
 import pandas_datareader.data as web
@@ -53,6 +53,4 @@ class Download:
 				f_error.T.to_csv(path+'/'+'error.csv',header=None)
 		__popup("Success","Success")
 
-
-# s= StockDownload(['Q','JNUG'],'2017-08-08','2017-08-23','/Users/CheerZhang/Documents/python/stock/stock download/result/')
 
