@@ -104,7 +104,7 @@ class stockdownload:
 				if symbolTemp not in lb_select.get(0,END):
 					lb_select.insert(0,symbolTemp)
 			except ValueError:
-				__popup("ValueError","Symbol no exist")
+				self.__popup("ValueError","Symbol no exist")
 
 		l_find = Label(frame,text="find&select:").grid(row=6)
 		e_find = Entry(frame)
@@ -146,9 +146,9 @@ class stockdownload:
 				for item in symbol_file['Symbol']:
 					if item in lb_symbol.get(0,END) and item not in lb_select.get(0,END):
 						lb_select.insert(END,item)
-				__popup("Success","Success")
+				self.__popup("Success","Success")
 			except:
-				__popup("Error","Header should contain 'Symbol'")
+				self.__popup("Error","Header should contain 'Symbol'")
 
 
 		folder_path_symbol = StringVar()
