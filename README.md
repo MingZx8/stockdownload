@@ -18,5 +18,7 @@ use pip to download (pip pandas_datareader)
 
 # Import & use
 
-  from stockdownload import *  
+
+<pre><code>  from stockdownload import *  
   stockdownload()
+</code></pre>
