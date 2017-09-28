@@ -1,3 +1,3 @@
 # StockDownload
 
-# download stock quotes historical data
+download stock quotes historical data
