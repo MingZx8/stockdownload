@@ -1,7 +1,7 @@
 # StockDownload
-GUI  
-download stock quotes historical data  
-input:  
+-GUI  
+-download stock quotes historical data  
+-input:  
   start date
   end date
   download path
