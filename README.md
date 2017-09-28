@@ -10,16 +10,15 @@
 
 # Installation
 
-python setup.py bdist_egg  
-
-python setup.py install  
+$python setup.py bdist_egg  
+$python setup.py install  
 
 
 # Required library
 
 pandas_datareader:  
 
-use pip to download (pip pandas_datareader)
+use pip to download ($pip install pandas_datareader)
 
 # Import & use
 
