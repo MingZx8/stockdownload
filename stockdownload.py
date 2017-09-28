@@ -55,7 +55,7 @@ class stockdownload:
 		lb_symbol = Listbox(frame,yscrollcommand=scrollbar.set,height=30,selectmode=SINGLE)
 
 		def __src_path(relative_path):
-			parent_path = os.path.dirname(os.getcwd())
+			parent_path = os.getcwd()
 			return os.path.join(parent_path,relative_path)
 
 		file_path =__src_path("Symbol.csv")
