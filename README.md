@@ -2,9 +2,9 @@
 -GUI  
 -download stock quotes historical data  
 -input:  
-  start date
-  end date
-  download path
+  start date  
+  end date  
+  download path  
   symbols(choose from a listbox or import a symbol file in .csv or by input)
 
 
