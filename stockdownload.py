@@ -19,9 +19,6 @@ import pandas as pd
 import sys
 import os
 import pandas_datareader.data as web
-import datetime
-import tkFileDialog as fd
-from Tkinter import *
 
 class stockdownload:
 	def __init__(self):
